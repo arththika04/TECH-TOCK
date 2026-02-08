@@ -84,3 +84,19 @@
             line-height: 1.6;
             font-weight: 500;
         }
+        .bullet-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success-color);
+            font-weight: 700;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(236, 72, 153, 0.06) 100%);
+            border: 2px solid var(--primary-color);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.1);
+            margin-bottom: 1.5rem;
+        }
